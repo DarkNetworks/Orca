@@ -2,8 +2,8 @@
 <div align="center">A free and open-source Roblox script hub</div>
 <br>
 <div align="center">
-	<a href="https://github.com/richie0866/orca/actions"><img src="https://github.com/richie0866/orca/actions/workflows/eslint.yaml/badge.svg" alt="ESLint Status" /></a>
-	<a href="https://github.com/richie0866/orca/releases/latest"><img src="https://img.shields.io/github/v/release/richie0866/orca?include_prereleases" alt="Latest Release" /></a>
+	<a href="https://github.com/DarkNetworks/Orca/actions"><img src="https://github.com/DarkNetworks/Orca/actions/workflows/eslint.yaml/badge.svg" alt="ESLint Status" /></a>
+	<a href="https://github.com/DarkNetworks/Orca/releases/latest"><img src="https://img.shields.io/github/v/release/DarkNetworks/Orca?include_prereleases" alt="Latest Release" /></a>
 </div>
 <div>&nbsp;</div>
 
@@ -11,7 +11,7 @@
 
 **Orca** is a **general-purpose** Roblox script hub designed to make convenient tasks **easy** and **satisfying**.
 
-Use many different **action cards** on the [**Home**](https://github.com/richie0866/orca#house-home) and [**Apps**](https://github.com/richie0866/orca#iphone-apps) page, or check out what we have featured on the [**Scripts**](https://github.com/richie0866/orca#newspaper-scripts) page.
+Use many different **action cards** on the [**Home**](https://github.com/DarkNetworks/Orca#house-home) and [**Apps**](https://github.com/DarkNetworks/Orca#iphone-apps) page, or check out what we have featured on the [**Scripts**](https://github.com/DarkNetworks/Orca#newspaper-scripts) page.
 
 Press `K` to open or close Orca. For the best experience, a 1080p monitor or above is recommended!
 
@@ -26,9 +26,7 @@ When run with auto-execution, Orca will start minimized by default.
 Runs the latest release build of Orca.
 
 ```lua
-loadstring(
-  game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua")
-)()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DarkNetworks/Orca/master/public/latest.lua"))()
 ```
 
 ### :construction: Nightly snapshot
@@ -36,9 +34,7 @@ loadstring(
 Runs a snapshot of new updates we have not published yet. You will get new features earlier, but they may be unstable.
 
 ```lua
-loadstring(
-  game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/snapshot.lua")
-)()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DarkNetworks/Orca/master/public/snapshot.lua"))()
 ```
 
 &nbsp;
